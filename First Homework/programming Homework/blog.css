@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 75px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    list-style: none;
+}
+.nav ul li{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav ul li a:active, .nav ul li a:visited {
+    text-decoration: underline;
+}
+.nav ul li a:hover {
+    color: rgb(252, 203, 24);
+}
+
+.posts {
+    background-color: rgb(232, 243, 243);
+    height: 50px;
+    text-align: center;
+    padding: 100px 0 50px 0;
+}
+.posts h1{
+    color: rgb(145, 13, 28);
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#content{
+    text-align: center;
+    padding: 20px;
+}
+
+.post img{
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.info {
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgb(232, 243, 243);
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 75px;
+    margin-top: -10px;
+}
+
+.boldp{
+    font-size: large;
+    color: rgb(145, 13, 28);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button button {
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+
+.footer {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px 20px 0 0;
+}
+.footer li {
+    list-style-type: none;
+}
+
+
+input{
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+}

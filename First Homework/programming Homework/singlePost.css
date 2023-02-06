@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.posts {
+    background-color: rgb(232, 243, 243);
+    height: 50px;
+    text-align: center;
+    padding: 10px 0 50px 0;
+}
+
+.posts h1 {
+    color: rgb(145, 13, 28);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#content {
+    text-align: center;
+    padding: 20px;
+}
+
+.post img {
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.info {
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgb(232, 243, 243);
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 75px;
+    margin-top: -10px;
+}
+
+.boldp {
+    font-size: large;
+    color: rgb(145, 13, 28);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
